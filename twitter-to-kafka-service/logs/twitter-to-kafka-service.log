@@ -1,0 +1,10 @@
+2022-05-26 20:20:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.13 on marcioss-ubuntu with PID 13719 (/home/marcioss/Documents/my_workspace/microservice-demo/twitter-to-kafka-service/target/classes started by marcioss in /home/marcioss/Documents/my_workspace/microservice-demo)
+2022-05-26 20:20:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-26 20:20:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.298 seconds (JVM running for 3.378)
+2022-05-26 20:20:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-05-26 20:20:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-26 20:20:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - hello microservices!
+2022-05-26 20:20:48 [main] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-26 20:20:48 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text voluptate ipsum dolor dolor sit adipiscing ipsum Kafka voluptate adipiscing Lorem amet consectetur elit
+2022-05-26 20:20:58 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text consectetur voluptate nostrud nostrud Spring ipsum consectetur massa
+2022-05-26 20:21:08 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolore adipiscing magna magna elit Kafka amet consectetur nostrud dolor

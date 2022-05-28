@@ -1,0 +1,17 @@
+2022-05-23 20:57:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.13 on marcioss-ubuntu with PID 38842 (/home/marcioss/Documents/my_workspace/microservice-demo/twitter-to-kafka-service/target/classes started by marcioss in /home/marcioss/Documents/my_workspace/microservice-demo)
+2022-05-23 20:57:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-23 20:57:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.725 seconds (JVM running for 1.52)
+2022-05-23 20:57:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-05-23 20:57:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-23 21:01:22 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.13 on marcioss-ubuntu with PID 39400 (/home/marcioss/Documents/my_workspace/microservice-demo/twitter-to-kafka-service/target/classes started by marcioss in /home/marcioss/Documents/my_workspace/microservice-demo)
+2022-05-23 21:01:22 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-23 21:01:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.857 seconds (JVM running for 1.404)
+2022-05-23 21:01:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-05-23 21:01:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-23 21:01:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - hello microservices!
+2022-05-23 21:01:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.13 on marcioss-ubuntu with PID 39512 (/home/marcioss/Documents/my_workspace/microservice-demo/twitter-to-kafka-service/target/classes started by marcioss in /home/marcioss/Documents/my_workspace/microservice-demo)
+2022-05-23 21:01:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-23 21:01:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.803 seconds (JVM running for 1.356)
+2022-05-23 21:01:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-05-23 21:01:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-23 21:01:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - hello microservices!

@@ -1,0 +1,15 @@
+2022-05-25 20:44:54 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.13 on marcioss-ubuntu with PID 28857 (/home/marcioss/Documents/my_workspace/microservice-demo/twitter-to-kafka-service/target/classes started by marcioss in /home/marcioss/Documents/my_workspace/microservice-demo)
+2022-05-25 20:44:54 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-25 20:44:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.249 seconds (JVM running for 3.338)
+2022-05-25 20:44:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-05-25 20:44:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-25 20:44:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - hello microservices!
+2022-05-25 20:44:55 [main] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-25 20:44:55 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text magna Lorem elit magna Kafka voluptate massa
+2022-05-25 20:45:05 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text massa magna magna sit nostrud sit sit Microservices ipsum voluptate amet nostrud ipsum nostrud
+2022-05-25 20:45:15 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text consectetur dolor nostrud dolore amet dolor Spring magna adipiscing ipsum amet
+2022-05-25 20:45:25 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text adipiscing adipiscing Lorem dolore Lorem ipsum amet dolor Elasticsearch nostrud voluptate ipsum massa voluptate magna
+2022-05-25 20:45:35 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text adipiscing consectetur sit sit consectetur dolore dolor nostrud Kafka massa dolore amet Lorem consectetur dolore
+2022-05-25 20:45:45 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem massa magna Lorem Kafka dolor Lorem magna
+2022-05-25 20:45:55 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text consectetur magna voluptate massa ipsum Java ipsum amet ipsum consectetur
+2022-05-25 20:46:05 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Lorem magna Lorem nostrud Microservices ipsum elit dolore dolor

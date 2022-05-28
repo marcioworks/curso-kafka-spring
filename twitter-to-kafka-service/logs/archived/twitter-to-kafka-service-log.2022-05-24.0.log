@@ -1,0 +1,41 @@
+2022-05-24 21:05:16 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.13 on marcioss-ubuntu with PID 20842 (/home/marcioss/Documents/my_workspace/microservice-demo/twitter-to-kafka-service/target/classes started by marcioss in /home/marcioss/Documents/my_workspace/microservice-demo)
+2022-05-24 21:05:16 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-24 21:05:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.725 seconds (JVM running for 4.168)
+2022-05-24 21:05:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-05-24 21:05:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-24 21:05:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - hello microservices!
+2022-05-24 21:05:17 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Start filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-24 21:05:17 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - closing twitter stream
+2022-05-24 21:06:54 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.13 on marcioss-ubuntu with PID 21017 (/home/marcioss/Documents/my_workspace/microservice-demo/twitter-to-kafka-service/target/classes started by marcioss in /home/marcioss/Documents/my_workspace/microservice-demo)
+2022-05-24 21:06:54 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-24 21:06:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.081 seconds (JVM running for 1.827)
+2022-05-24 21:06:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-05-24 21:06:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-24 21:06:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - hello microservices!
+2022-05-24 21:06:55 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Start filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-24 21:06:55 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - closing twitter stream
+2022-05-24 21:09:25 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.13 on marcioss-ubuntu with PID 21350 (/home/marcioss/Documents/my_workspace/microservice-demo/twitter-to-kafka-service/target/classes started by marcioss in /home/marcioss/Documents/my_workspace/microservice-demo)
+2022-05-24 21:09:25 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-24 21:09:25 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.036 seconds (JVM running for 1.719)
+2022-05-24 21:09:25 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-05-24 21:09:25 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-24 21:09:25 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - hello microservices!
+2022-05-24 21:09:25 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Start filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-24 21:09:25 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - closing twitter stream
+2022-05-24 21:12:42 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.13 on marcioss-ubuntu with PID 21743 (/home/marcioss/Documents/my_workspace/microservice-demo/twitter-to-kafka-service/target/classes started by marcioss in /home/marcioss/Documents/my_workspace/microservice-demo)
+2022-05-24 21:12:42 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-24 21:12:43 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.957 seconds (JVM running for 1.563)
+2022-05-24 21:12:43 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-05-24 21:12:43 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-24 21:12:43 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - hello microservices!
+2022-05-24 21:12:43 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-05-24 21:12:43 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Start filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-05-24 21:12:45 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - You currently have Essential access which includes access to Twitter API v2 endpoints only. If you need access to this endpoint, you’ll need to apply for Elevated access via the Developer Portal. You can learn more here: https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#v2-access-leve
+code - 453
+
+2022-05-24 21:12:45 [Twitter Stream consumer /  [1][Establishing connection]] WARN  twitter4j.TwitterStreamImpl - This account is not in required role. 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - You currently have Essential access which includes access to Twitter API v2 endpoints only. If you need access to this endpoint, you’ll need to apply for Elevated access via the Developer Portal. You can learn more here: https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#v2-access-leve
+code - 453
+
+2022-05-24 21:12:45 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - closing twitter stream

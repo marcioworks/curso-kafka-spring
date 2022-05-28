@@ -1,0 +1,41 @@
+version: '3.7'
+services:
+  kafka-broker-1:
+    image: debezium/zkless-kafka:${KAFKA_VERSION}
+    hostname: kafka-broker-1
+    ports:
+      - "19092:19092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka-broker-1:9092,LISTENER_LOCAL://localhost:19092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,LISTENER_LOCAL:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_COMPRESSION_TYPE: producer
+    networks:
+      - ${GLOBAL_NETWORK:-kafka}
+  kafka-broker-2:
+    image: debezium/zkless-kafka:${KAFKA_VERSION}
+    hostname: kafka-broker-2
+    ports:
+      - "29092:29092"
+    environment:
+      KAFKA_BROKER_ID: 2
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka-broker-1:9092,LISTENER_LOCAL://localhost:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,LISTENER_LOCAL:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_COMPRESSION_TYPE: producer
+    networks:
+      - ${GLOBAL_NETWORK:-kafka}
+  kafka-broker-3:
+    image: debezium/zkless-kafka:${KAFKA_VERSION}
+    hostname: kafka-broker-3
+    ports:
+      - "39092:39092"
+    environment:
+      KAFKA_BROKER_ID: 3
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka-broker-1:9092,LISTENER_LOCAL://localhost:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,LISTENER_LOCAL:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_COMPRESSION_TYPE: producer
+    networks:
+      - ${GLOBAL_NETWORK:-kafka}

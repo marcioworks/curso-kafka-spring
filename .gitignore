@@ -4,6 +4,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+**/src/main/resources/twitter4j.properties
 ### STS ###
 .apt_generated
 .classpath
